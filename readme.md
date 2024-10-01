@@ -1,1 +1,1 @@
-<a href="https://github.com/vandalit/BT-UXUI-TD-2024-AD-056-AD">pinche este link</a>
+<a href="https://vandalit.github.io/BT-UXUI-TD-2024-AD-056-AD/">pinche este link</a>
