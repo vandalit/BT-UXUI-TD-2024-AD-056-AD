@@ -1,1 +1,0 @@
-<a href="https://vandalit.github.io/BT-UXUI-TD-2024-AD-056-AD/">pinche este link</a>

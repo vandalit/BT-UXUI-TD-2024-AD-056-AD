@@ -1,0 +1,11 @@
+#fila-uno {
+    padding: 10px;
+    background-color: bisque;
+
+}
+
+.border {
+    border: 10px;
+    border-style: dashed;
+    border-color: black;
+}
