@@ -6,7 +6,31 @@
 
 nav {
     background-color: blue;
-    height: 40px;
+    height: 60px;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+
+}
+
+nav li {
+    padding: 10px;
+    background-color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+nav ul li a:hover {
+    color: white;
 }
 
 .hero {
@@ -74,21 +98,22 @@ footer {
     justify-content: space-around;
 }
 
-ul{
+footer ul{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
 }
 
-li {
+footer ul li {
     background-color: hsl(149, 94%, 21%);
     padding: 10px;
     display: inline;
     margin: 5px 20px;
-}
+} 
 
 #segundo {
     background-color: coral;
     flex-flow: row-reverse;
 }
+
