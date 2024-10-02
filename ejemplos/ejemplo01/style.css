@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #00cc66;
+}
+
+.logo-section img {
+    width: 150px;
+    height: auto;
+}
+
+.find-store,
+.sales-info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.find-store i,
+.sales-info i {
+    color: #00cc66;
+    margin-right: 8px;
+}
+
+.subscribe-btn {
+    margin-top: 15px;
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.subscribe-btn:hover {
+    background-color: #00994d;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.social-icons a:hover {
+    color: #00cc66;
+}
