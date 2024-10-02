@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    background-color: blue;
+    height: 40px;
+}
+
+.hero {
+    height: 350px;
+    width: 100%;
+    background-color: rgb(9, 185, 185);
+}
+
+.destacados {
+    background-color: brown;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.cuadrado {
+    height: 200px;
+    width: 160px;
+    margin: 2px;
+    background-color: bisque;
+
+}
+
+.blog {
+    background-color: burlywood;
+
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: beige; */
+    padding: 10px;
+}
+
+p {
+    padding: 20px;
+    /* background-color: aquamarine; */
+    width: 300px;
+    /* border: 2px; */
+    /* border-color: black;
+    border-style: solid; */
+    margin: 20px;
+}
+
+.imagen {
+    /* background-color: aqua; */
+    display: flex;
+    padding: 30px;
+}
+
+.imagen img {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+li {
+    background-color: hsl(149, 94%, 21%);
+    padding: 10px;
+    display: inline;
+    margin: 5px 20px;
+}
+
+#segundo {
+    background-color: coral;
+    flex-flow: row-reverse;
+}

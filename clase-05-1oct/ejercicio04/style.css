@@ -1,0 +1,12 @@
+    /* Aplicamos las fuentes a los párrafos */
+    body {
+        font-family: 'Roboto', sans-serif;
+      }
+  
+      .lobster {
+        font-family: 'Lobster', cursive;
+      }
+  
+      .montserrat {
+        font-family: 'Montserrat', sans-serif;
+      }

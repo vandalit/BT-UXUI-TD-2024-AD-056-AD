@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.cuadrado {
+    width: 30%;
+    height: 100px;
+    background-color: grey;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.contenedor {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#productos {
+    justify-content: space-evenly;
+    background-color: rgb(80, 103, 255);
+}
+
+#productos .cuadrado {
+    width: 20%;
+}

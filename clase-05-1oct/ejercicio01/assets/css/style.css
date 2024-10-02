@@ -1,0 +1,26 @@
+p{
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    background-color: aqua;
+    width: 100px;
+    display: inline-block;
+
+}
+
+.caja {
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+.importante {
+    background-image: url(../img/Image20240925214743.jpg);
+    background-size: cover;
+}
+
+.darkmode {
+    background-color: black;
+    color: coral;
+}
