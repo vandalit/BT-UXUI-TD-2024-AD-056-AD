@@ -1,0 +1,23 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+} 
+/* esto anula al navegador */
+ 
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 2px;
+    display: inline-block;
+}
+
+.contenedor {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
