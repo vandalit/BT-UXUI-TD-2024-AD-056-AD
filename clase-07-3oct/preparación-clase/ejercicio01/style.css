@@ -1,13 +1,35 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadrado {
+    height: 50px;
+    background-color: grey;
+    border: 1px solid white;
+}
+
+.container {
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 49%;
+}
 
 
-
-
-
-
-
-
-@media (min-width: 576px) {
-    .contenedor-kawaii {
-      max-width: 540px;
+@media (max-width: 576px) {
+    .col-6 {
+      width: 100%;
     }
   }
+
+.btn {
+    background-color: aqua;
+    border-radius: 15px;
+    box-shadow: 10px;
+}
