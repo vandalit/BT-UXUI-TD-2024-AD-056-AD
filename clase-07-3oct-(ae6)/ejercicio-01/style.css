@@ -1,0 +1,105 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 40px;
+    background-color: #f2962d;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul li {
+    color: white;
+    padding: 2px;
+    list-style: none;
+    margin: 4px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(204, 245, 21);
+}
+
+li a:hover {
+    color: white;
+}
+
+.hero {
+    background-color: aquamarine;
+    height: 300px;
+} 
+
+
+ #productos {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+ .tarjeta {
+    background-color: grey;
+    height: 200px;
+    width: 140px;
+    margin: 5px;
+    min-width: 100px;
+}
+
+
+.blog {
+    background-color: chocolate;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    align-items: center;
+
+}
+
+p {
+    margin: 20px;
+    max-width: 200px;
+
+}
+
+.imagen-blog {
+    width: 300px;
+    height: 150px;
+   object-fit: cover;
+   justify-content: space-between;
+}
+
+.intercalado {
+    flex-direction: row-reverse;
+    background-color: rgb(193, 38, 38);
+
+}
+
+footer {
+    background-color: grey;
+    height: 100px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer ul li {
+    background-color: aquamarine;
+    width: 30px;
+    margin: 5px;
+    list-style: none;
+    padding: 10px;
+}
+
